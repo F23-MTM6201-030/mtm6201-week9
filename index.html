@@ -49,8 +49,8 @@
                 </svg>
               </button>
             </form>
-          </div>
-        </div>
+          </div><!-- closes .navbar-collapse -->
+        </div><!-- closes .container-lg -->
       </nav>
     </header>
     <main>
@@ -58,12 +58,11 @@
         <div class="info container-lg bg-dark bg-opacity-75 text-light py-4">
           <h1 class="display-1">Welcome to Three Star Media</h1>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam corporis porro itaque blanditiis qui culpa quo quas facere quae inventore accusamus minima, sunt voluptate id laborum facilis dolore praesentium eligendi!</p>
-          <a href="#contact" class="btn btn-primary rounded-0">Connect with us</a>
-        </div>
-        <!-- add a semi-opaque background and padding on div.info (colors&background)
-          make the heading large (typography)
-        -->
-      </section>
+          <a href="#contact" class="btn btn-primary rounded-0">Connect with us <svg width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+              <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+            </svg></a>
+        </div><!-- closes .info-->
+      </section><!-- closes .banner -->
       <section id="about" class="bg-secondary py-2">
         <div class="container-lg">
           <div class="row row-cols-1 row-cols-md-2">
@@ -78,10 +77,68 @@
               <p>
                 Fuga voluptate ad sint nesciunt ea dolorem nemo assumenda vel maiores nulla mollitia, perspiciatis, ducimus natus porro officiis!
               </p>
-            </div>
-          </div>
-        </div>
-      </section>
+            </div><!-- closes .col -->
+          </div><!-- closes .row -->
+        </div><!-- closes .container-lg -->
+      </section><!-- closes #about -->
+      <section id="services" class="container-lg">
+        <div class="row">
+          <h2 class="col-12">Our Services</h2>
+          <div class="card col-md-6 rounded-0 p-0">
+            <img src="images/digital.jpg" class="rounded-0 card-img-top" alt="user on a mobile and desktop">
+            <div class="card-body bg-secondary">
+              <h3 class="card-title">Digital Transformation</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark rounded-0 py-3 d-block">Digital Plans <svg width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+          <!-- Marketing -->
+          <div class="card col-md-6 rounded-0 p-0">
+            <img src="images/marketing.jpg" class="rounded-0 card-img-top" alt="laptop on a table">
+            <div class="card-body bg-secondary">
+              <h3 class="card-title">Marketing</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark rounded-0 py-3 d-block">Marketing Plans <svg width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+          <!-- Video Production -->
+          <div class="card col-md-4 rounded-0 p-0">
+            <img src="images/video.jpg" class="rounded-0 card-img-top" alt="user on a mobile">
+            <div class="card-body bg-secondary">
+              <h3 class="card-title">Video Production</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark rounded-0 py-3 d-block">Video Plans <svg width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+          <!-- Web Development -->
+          <div class="card col-md-4 rounded-0 p-0">
+            <img src="images/web.jpg" class="rounded-0 card-img-top" alt="mobile and a pen on a graph book">
+            <div class="card-body bg-secondary">
+              <h3 class="card-title">Web Development</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark rounded-0 py-3 d-block">Web Plans <svg width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+          <div class="card col-md-4 rounded-0 p-0">
+            <img src="images/print.jpg" class="rounded-0 card-img-top" alt="mailboxes">
+            <div class="card-body bg-secondary">
+              <h3 class="card-title">Print</h3>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-dark rounded-0 py-3 d-block">Print Plans <svg width="16" height="16" fill="currentColor" class="bi bi-play-fill" viewBox="0 0 16 16">
+                  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z" />
+                </svg></a>
+            </div><!-- closes .card-body -->
+          </div><!-- closes .card -->
+        </div><!-- closes .row -->
+      </section><!-- closes #services -->
     </main>
     <footer>
 
