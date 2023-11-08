@@ -30,3 +30,7 @@
   background: white url(../images/main-banner.jpg) no-repeat center;
   background-size: cover;
 }
+.vision{
+  background: #000 url(../images/vision.jpg) no-repeat center;
+  background-size: cover;
+}
